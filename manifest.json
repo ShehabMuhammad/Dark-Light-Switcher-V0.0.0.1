@@ -1,0 +1,33 @@
+{ 
+ "name": "Dark/Light Mode Switcher",
+  
+
+ "version": "0.0.0.1",
+ 
+
+ "description": " An extension that aims to comfort your eyes by enabling you to switch from dark theme to light them, and vice versa.  ",
+
+ "permissions": ["activeTab"],
+
+ "browser_action": {
+    "default_popup": "popup.html",
+   "default_icon": {
+    "16": "images/Yin-Yang16.png",
+    "32": "images/Yin-Yang32.png",
+    "48": "images/Yin-Yang48.png",
+    "128": "images/Yin-Yang128.png"
+  }
+  },
+ 
+
+ "icons": {
+    "16": "images/Yin-Yang16.png",
+    "32": "images/Yin-Yang32.png",
+    "48": "images/Yin-Yang48.png",
+    "128": "images/Yin-Yang128.png"
+  },
+ 
+
+ "manifest_version": 2
+
+}

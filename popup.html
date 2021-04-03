@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+<title>HakunaMatata</title>
+    <style>
+        
+      button {
+          border-radius: 10px;
+        height: 60px;
+        width: 90px; transition: 0.1s;
+ outline: none;
+ float: left; margin: 5px;     }
+        #Dark:hover {background: linear-gradient(to bottom right, dodgerblue, aliceblue ) !important ; color: black !important;}
+                #Light:hover {background: linear-gradient(to bottom right, dodgerblue, aliceblue ) !important ; color: white !important;}
+
+    </style>
+  </head>
+  
+<body style="background: linear-gradient(to bottom right, lightgray 0%, white 100%) no-repeat; width: 100%; height: 100%;">
+    
+    <center style="margin-top: 20vw ;">
+        <p style="margin-left: -5vw;font-size: 20px;"> Choose your preferred theme for this site. </p>
+    <button style="color:white; background-color: #000; margin-left: 40vw;" id="Dark">Dark mode</button>
+    <button style="color:black; background-color:white;" id="Light">Light mode</button>
+    </center>
+<div></div><button style="color:black; background-color:gray; margin-left: 20vw" id="Normal">Normal</button>
+    <script src="popup.js"></script>
+
+ </body>
+ </html>
